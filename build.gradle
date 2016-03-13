@@ -1,0 +1,63 @@
+apply plugin: 'java'
+apply plugin: 'war'
+//apply from: 'https://raw.github.com/akhikhl/gretty/master/pluginScripts/gretty.plugin'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.akhikhl.gretty:gretty:1.2.4'
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+if (!project.plugins.findPlugin(org.akhikhl.gretty.GrettyPlugin))
+    project.apply(plugin: org.akhikhl.gretty.GrettyPlugin)
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+version = '1.0'
+
+[compileJava,compileTestJava, javadoc]*.options*.encoding = "UTF-8"
+
+repositories {
+    mavenCentral()
+}
+
+gretty{
+    contextPath="/springMvc"
+    httpPort=8888
+    servletContainer="tomcat8"
+}
+
+dependencies {
+    compile("org.springframework:spring-orm:4.1.7.RELEASE")
+    compile("org.springframework:spring-context:4.1.7.RELEASE")
+    compile("org.springframework:spring-aop:4.1.7.RELEASE")
+    compile("org.springframework:spring-aspects:4.1.7.RELEASE")
+    compile("org.springframework:spring-webmvc:4.1.7.RELEASE")
+    compile("org.springframework:spring-web:4.1.7.RELEASE")
+
+    compile("org.hibernate:hibernate-core:4.3.10.Final")
+    compile("org.apache.commons:commons-dbcp2:2.1")
+    compile("commons-fileupload:commons-fileupload:1.2.2")
+
+    compile("org.thymeleaf:thymeleaf-spring4:2.1.4.RELEASE")
+    compile("org.thymeleaf:thymeleaf:2.1.4.RELEASE")
+
+    compile("com.google.guava:guava:18.0")
+    compile("com.h2database:h2:1.4.189")
+
+    testCompile("org.springframework:spring-test:4.1.7.RELEASE")
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    runtime("org.dbunit:dbunit:2.5.1")
+
+
+    providedCompile('javax.servlet:javax.servlet-api:3.1.0')
+}

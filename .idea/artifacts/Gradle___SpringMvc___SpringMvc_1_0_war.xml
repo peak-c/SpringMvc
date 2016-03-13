@@ -1,0 +1,68 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : SpringMvc : SpringMvc-1.0.war">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/SpringMvc</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="SpringMvc-1.0.war">
+      <element id="javaee-facet-resources" facet="SpringMvc/web/Web Gradle : SpringMvc-1.0.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMvc" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.1.7.RELEASE/d8923bdffe631904899875e719d8b363bc3deaea/spring-orm-4.1.7.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.7.RELEASE/8c6c02bcccfa23a74db59f7b7725e69e1af38f04/spring-context-4.1.7.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.7.RELEASE/127f005bac8ec1fbbbc5bb1595d78c6179394a46/spring-aop-4.1.7.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.1.7.RELEASE/7bba74bc38abf8fdaa8ad8288574edb4430ed490/spring-aspects-4.1.7.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.7.RELEASE/b6b9f604cb2223251cae67fff7ca2b1d9ff1c2d8/spring-webmvc-4.1.7.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.7.RELEASE/2d9245006b788d7d6afeec85a43e4bfe2e46340a/spring-web-4.1.7.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/4.3.10.Final/6dbf5fe7a8cb307587ad4b4a97ae0933bba5e2a9/hibernate-core-4.3.10.Final.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-dbcp2/2.1/95d4eab4b67874f452a69fe84e89f2952c6c27f6/commons-dbcp2-2.1.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.2.2/1e48256a2341047e7d729217adeec8217f6e3a1a/commons-fileupload-1.2.2.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf-spring4/2.1.4.RELEASE/e5677e7daedfd05e001945abf4295305ac23826b/thymeleaf-spring4-2.1.4.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/2.1.4.RELEASE/a730d892f3c57ba3d24af2ca657b42d81398a85a/thymeleaf-2.1.4.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.189/729cc6463437e87238e85aa81dd3771c3b8e2a0f/h2-1.4.189.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-nop/1.7.12/8052427115f80679a17bd2af659c760df39829bd/slf4j-nop-1.7.12.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.dbunit/dbunit/2.5.1/455e3f8be3ad920f793659c3318d1a2281b1f759/dbunit-2.5.1.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.7.RELEASE/e52148e9671e2918a2172c9cf56b77bede2042ce/spring-beans-4.1.7.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.7.RELEASE/9f8e34eef228f44bda771c9dc62e9f1efa82c92d/spring-core-4.1.7.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.1.7.RELEASE/5e4c9931acaf2857efe5f1ad27e4791c0855b8b2/spring-jdbc-4.1.7.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.1.7.RELEASE/3465a5d3b24006d51482cf45abd13e347f64582a/spring-tx-4.1.7.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.7.RELEASE/9bc3b81d05961f042ea4a45e84d60cdc59ea51f5/spring-expression-4.1.7.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.6/7108cf65148f29a55ebf23db2c46224ea9d086dc/aspectjweaver-1.8.6.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/64499e907f19e5e1b3fdc02f81440c1832fe3545/jboss-logging-3.1.3.GA.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging-annotations/1.2.0.Beta1/2f437f37bb265d9f8f1392823dbca12d2bec06d6/jboss-logging-annotations-1.2.0.Beta1.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/1f9fef7a9fcbb41cc390fc370a291cf30729e094/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/4.0.5.Final/2a581b9edb8168e45060d8bad8b7f46712d2c52c/hibernate-commons-annotations-4.0.5.Final.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.1-GA/d9a09f7732226af26bf99f19e2cffe0ae219db5b/javassist-3.18.1-GA.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.jboss/jandex/1.1.0.Final/e84a2122e76f0b6503be78094ddf2108057ac15f/jandex-1.1.0.Final.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.3/62a559a025fd890c30364296ece14643ba9c8c5b/commons-pool2-2.3.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/ognl/ognl/3.0.8/37e1aebfde7eb7baebc9ad4f85116ef9009c5fc5/ognl-3.0.8.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.0.RELEASE/ab0db4fe0a6fa89fb8da2a40008a4e63a7f3f5b9/unbescape-1.1.0.RELEASE.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.11/e87975291fbb65888468b09fda2cf00e2996c2a0/poi-ooxml-3.11.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/3136ca936f64c9d68529f048c2618bd356bf85c9/xml-apis-1.0.b2.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.11/51058d9db469437a5ed0aa508e7de8937019e1d9/poi-3.11.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml-schemas/3.11/4f015e9125a65351a2e1d27c1f8c6af0ff4a34c8/poi-ooxml-schemas-3.11.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/2.6.0/29e80d2dd51f9dcdef8f9ffaee0d4dc1c9bbfc87/xmlbeans-2.6.0.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/stax/stax-api/1.0.1/49c100caf72d658aca8e58bd74a4ba90fa2b0d70/stax-api-1.0.1.jar" />
+          <element id="file-copy" path="E:/study/JavaEE-tool/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.12/8e20852d05222dc286bf1c71d78d0531e177c317/slf4j-api-1.7.12.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/SpringMvc/exploded/SpringMvc-1.0.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
